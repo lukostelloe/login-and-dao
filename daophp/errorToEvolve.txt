@@ -1,0 +1,5 @@
+Ce brief ma permis de me rendre compte de certaines erreur de méthodologie.
+- Le maquettage de l'application à été fait au fur et a mesure plutôt que de missionner un dev dessus dès le début.
+- Les test des class en Php n'ont pas été réalisé en amont.
+- Les fichier n'ont pas été 'mis' dans les bons dossier dès le début, ce qui entraîne de devoir changer les chemins
+des requires ect...

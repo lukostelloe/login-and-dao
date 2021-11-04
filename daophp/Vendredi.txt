@@ -1,0 +1,25 @@
+DIM: 
+- Afficher la colonne avec l'id afin de s'en servir pour update les rows;
+- Definir les fonctions JS et PHP pour la requete mySql pour changer les rows;
+- 
+LUKE:
+- Créer un bouton pour faire apparaitre le formulaire en Modale
+- Changer la photo pour 'modifier'
+- Finir CSS 
+- make this responsive
+-
+LOIC:
+- VoitureDao.php -> faire le getter (mais pas le setter) de ID;
+- Voiture.php créer une fonction qui vérifie si une voiture existe déja dans la BDD (registration ou ID); 
+- Si la condition est respecté permettre la soumission du formulaire sinon message d'erreur; 
+-
+Kevin:
+-Faire des sous
+-Pour payer tacos, kebab et pizza
+-Toute la semaine prochaine
+-A tes chères coéquipiers =) 
+- 
+
+
+De jolies couleurs sur le formulaire pour valider/invalider les champs saisis
+Ce message s'autodétruira vendredi soir...

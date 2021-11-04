@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../asset/car.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+#title {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  margin: 20px auto;
+  background-color: #8db8a4;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#input {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+  background-color: #8686864b;
+  border-radius: 5px;
+}
+
+#addcarbutton {
+  background-color: rgb(63, 63, 199);
+  color: white;
+}
+
+#bin {
+  width: 20px;
+  height: 20px;
+}
+
+.inputbox {
+  padding: 5px;
+  margin: 20px;
+}
+
+form {
+  padding: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #8db8a4;
+  border-radius: 5px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 350px; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  position: relative;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  top: -20px;
+  left: 13px;
+}

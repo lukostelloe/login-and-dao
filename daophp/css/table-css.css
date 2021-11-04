@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+}
+.table-container {
+  width: 90%;
+  padding: 20px 10%;
+  margin: 40px auto;
+  background-color: #8686864b;
+  border-radius: 5px;
+}
+.heading {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table tr td {
+  background-color: #8db8a4;
+}
+.table thead {
+  background-color: #464646;
+}
+.table thead tr th {
+  background-color: #8db8a4;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+  opacity: 1;
+  padding: 12px;
+  vertical-align: top;
+  border: 1px solid;
+}
+.table tbody tr td {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  font-weight: normal;
+  color: aliceblue;
+  background-color: aquamarine;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #464646;
+}
+.table .modify {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.35px;
+  color: aliceblue;
+}
+.table tbody tr td .btn {
+  width: 130px;
+  text-decoration: none;
+  line-height: 35px;
+  display: inline-block;
+  background-color: aquamarine;
+  font-weight: medium;
+  color: azure;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 14px;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+  .table,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+  .table tr {
+    margin-bottom: 15px;
+  }
+  .table tr td {
+    text-align: right;
+    padding-left: 50%;
+    padding-right: 5%;
+    position: relative;
+    border: 1px solid white;
+    background-color: #8db8a4;
+  }
+  .table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+  }
+}
